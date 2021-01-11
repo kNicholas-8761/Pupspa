@@ -6,8 +6,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-rows: 5% 30% 10% 30% 20% 5%;
-  grid-template-columns: repeat(6,1fr);
+  grid-template: 5% 30% 10% 30% 20% 5%/repeat(6,1fr);
 }
 
 header {
