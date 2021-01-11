@@ -67,12 +67,15 @@ img {
 }
 
 .address {
+  grid-column: 1 / span 2;
 }
 
 .hours {
+  grid-column: 3 / span 2;
 }
 
 .call-us {
+  grid-column: 5 / span 2;
 }
 
 .marker {
